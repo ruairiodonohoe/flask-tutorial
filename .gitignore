@@ -1,14 +1,36 @@
+# Python
 .venv/
-
 *.pyc
 __pycache__/
 
+# Flask instance folder
 instance/
 
+# Testing / coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
+# Packaging / build
 dist/
 build/
 *.egg-info/
+
+# IDE / Editor
+.vscode/
+
+# Environment / config
+*.env
+*.config
+*.cfg
+
+# Logs / databases
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts (optional)
+docker-compose.override.yml
